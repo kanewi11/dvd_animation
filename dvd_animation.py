@@ -1,8 +1,9 @@
 import sys
 import random
-import pygame
 from itertools import cycle
 from collections import deque
+
+import pygame
 
 
 class DVDAnimation:
