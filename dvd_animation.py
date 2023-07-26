@@ -19,7 +19,7 @@ class DVDAnimation:
         self.screen = pygame.display.set_mode(self.SCREEN_SIZE)
         pygame.display.set_caption('DVD Animation')
 
-        # Load the DVD logo image (load only once)
+        # Load the DVD logo image (load only once) 80x40 px
         self.dvd_logo = pygame.image.load('logo.png').convert_alpha()
 
         self.clock = pygame.time.Clock()
